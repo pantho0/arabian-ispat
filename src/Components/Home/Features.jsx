@@ -14,7 +14,7 @@ const Features = () => {
         {/* Card-1 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-blue-600 rounded-full p-4">
+           <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <GiSmallFire/>
            </div>
           </figure>
@@ -26,7 +26,7 @@ const Features = () => {
         {/* Card-2 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-blue-600 rounded-full p-4">
+           <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <GiPizzaCutter/>
            </div>
           </figure>
@@ -38,7 +38,7 @@ const Features = () => {
         {/* Card-3 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-blue-600 rounded-full p-4">
+           <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <TbManualGearbox/>
            </div>
           </figure>
@@ -50,7 +50,7 @@ const Features = () => {
         {/* Card-4 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-blue-600 rounded-full p-4">
+           <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <GiArmorUpgrade/>
            </div>
           </figure>

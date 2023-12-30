@@ -3,7 +3,7 @@ import ImgAbout from "../../assets/images/imgabout.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="aboutus">
       <div
         className="hero min-h-[50vh]"
         style={{

@@ -2,7 +2,7 @@ import Container from "../Utils/Container";
 
 const Contact = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20" id="contact">
       <h2 className="text-blue-600 text-4xl text-center">
         Get in Touch with Us
       </h2>

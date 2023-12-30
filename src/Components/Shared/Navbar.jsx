@@ -1,52 +1,67 @@
 import { Link, NavLink } from "react-router-dom";
 import Container from "../Utils/Container";
 import Logo from "../../assets/images/logo.png"
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink
+        <ScrollLink
+
           to="/"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? 'pending' : isActive ? 'text-blue-600' : ''
           }
         >
           Home
-        </NavLink>
+        </ScrollLink>
       </li>
       <li>
-        <NavLink
-          to="/products"
+        <ScrollLink
+          to="products"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset according to your layout
+          duration={500}
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? 'pending' : isActive ? 'active' : ''
           }
         >
           Products
-        </NavLink>
+        </ScrollLink>
       </li>
       <li>
-        <NavLink
-          to="/aboutus"
+        <ScrollLink
+          to="aboutus"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset according to your layout
+          duration={500}
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? 'pending' : isActive ? 'active' : ''
           }
         >
           About Us
-        </NavLink>
+        </ScrollLink>
       </li>
       <li>
-        <NavLink
-          to="/contact"
+        <ScrollLink
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset according to your layout
+          duration={500}
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+            isPending ? 'pending' : isActive ? 'active' : ''
           }
         >
           Contact Us
-        </NavLink>
+        </ScrollLink>
       </li>
     </>
   );
+  
   return (
     <div className="shadow-lg">
       <Container>

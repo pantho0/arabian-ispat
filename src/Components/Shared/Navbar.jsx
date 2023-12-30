@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
     <div className="shadow-lg">
       <Container>
-        <div className="navbar bg-base-100">
+        <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
               <div

@@ -3,6 +3,7 @@ import Features from "../../Components/Home/Features";
 import AboutUs from "../../Components/Home/AboutUs";
 import Products from "../../Components/Home/Products";
 import Environment from "../../Components/Home/Environment";
+import QualityAssurance from "../../Components/Home/QualityAssurance";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
      <Products/>
      <AboutUs/>
      <Environment/>
+     <QualityAssurance/>
     </>
   );
 };

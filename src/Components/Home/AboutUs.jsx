@@ -16,9 +16,9 @@ const AboutUs = () => {
           <section className="grid grid-cols-1 gap-0 md:grid-cols-2">
           <div>
               <img
-                style={{
-                    objectFit: "cover",
-                  }}
+                // style={{
+                //     objectFit: "cover",
+                //   }}
                 src={ImgAbout}
                 alt="3 women looking at a laptop"
                 className="object-cover w-full h-64 bg-gray-100 md:h-full"

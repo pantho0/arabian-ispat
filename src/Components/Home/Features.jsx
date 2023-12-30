@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../Utils/Container";
 import { GiSmallFire } from "react-icons/gi";
 import { GiPizzaCutter } from "react-icons/gi";
@@ -9,7 +8,7 @@ import { GiArmorUpgrade } from "react-icons/gi";
 
 const Features = () => {
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-200 shadow-md">
       <Container>
         <div className="flex gap-2">
         {/* Card-1 */}

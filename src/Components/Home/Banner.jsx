@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BannerImage from "../../assets/images/banner.jpg"
 const Banner = () => {
     return (
@@ -17,7 +17,6 @@ const Banner = () => {
             <p className="mb-5 text-4xl">
             Building Dreams, Always in Support
             </p>
-            <button className="btn btn-primary">Get Started</button>
           </div>
         </div>
       </div>

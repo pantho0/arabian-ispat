@@ -32,7 +32,7 @@ const AboutUs = () => {
               </h1>
 
               <p className="pr-0 mb-4 text-base text-gray-300 tracking-relaxed lg:pr-16">
-              Welcome to Arabian Ispat Ltd, where our commitment to steel excellence shines in every MS rod we produce. As industry leaders, we pride ourselves on quality, innovation, and customer satisfaction. With a dynamic team, we've earned trust in the market. Our precision manufacturing ensures each MS rod meets the highest standards of strength. Rooted in a passion for engineering, our journey aims to redefine steel production. Explore our core, where iron-making, meticulous processes, and dedication to welding converge, creating industry benchmark MS rods. Thank you for choosing Arabian Ispat Ltd as your trusted partner in quality steel solutions.
+              Welcome to Arabian Ispat Ltd, where our commitment to steel excellence shines in every MS rod we produce. As industry leaders, we pride ourselves on quality, innovation, and customer satisfaction. With a dynamic team, we&apos;ve earned trust in the market. Our precision manufacturing ensures each MS rod meets the highest standards of strength. Rooted in a passion for engineering, our journey aims to redefine steel production. Explore our core, where iron-making, meticulous processes, and dedication to welding converge, creating industry benchmark MS rods. Thank you for choosing Arabian Ispat Ltd as your trusted partner in quality steel solutions.
               </p>
             </div>
             

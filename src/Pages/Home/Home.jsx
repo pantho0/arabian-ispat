@@ -4,6 +4,7 @@ import AboutUs from "../../Components/Home/AboutUs";
 import Products from "../../Components/Home/Products";
 import Environment from "../../Components/Home/Environment";
 import QualityAssurance from "../../Components/Home/QualityAssurance";
+import Contact from "../../Components/Home/Contact";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
      <AboutUs/>
      <Environment/>
      <QualityAssurance/>
+     <Contact/>
     </>
   );
 };

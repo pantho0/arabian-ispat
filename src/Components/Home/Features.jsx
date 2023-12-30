@@ -9,13 +9,13 @@ import { GiArmorUpgrade } from "react-icons/gi";
 
 const Features = () => {
   return (
-    <div className="bg-base-300">
+    <div className="bg-gray-300">
       <Container>
         <div className="flex gap-2">
         {/* Card-1 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-[#017C9D] rounded-full p-4">
+           <div className="bg-blue-600 rounded-full p-4">
            <GiSmallFire/>
            </div>
           </figure>
@@ -27,7 +27,7 @@ const Features = () => {
         {/* Card-2 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-[#017C9D] rounded-full p-4">
+           <div className="bg-blue-600 rounded-full p-4">
            <GiPizzaCutter/>
            </div>
           </figure>
@@ -39,7 +39,7 @@ const Features = () => {
         {/* Card-3 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-[#017C9D] rounded-full p-4">
+           <div className="bg-blue-600 rounded-full p-4">
            <TbManualGearbox/>
            </div>
           </figure>
@@ -51,7 +51,7 @@ const Features = () => {
         {/* Card-4 */}
         <div className="card w-96">
           <figure className="px-10 pt-10 text-6xl text-white">
-           <div className="bg-[#017C9D] rounded-full p-4">
+           <div className="bg-blue-600 rounded-full p-4">
            <GiArmorUpgrade/>
            </div>
           </figure>

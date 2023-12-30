@@ -6,7 +6,7 @@ const Products = () => {
   return (
     <div className="mt-20 mb-20" id="products">
       <Container>
-      <h2 className="text-6xl text-center text-[#017C9D]">Products</h2>
+      <h2 className="text-6xl text-center text-blue-600">Products</h2>
       {/* cards */}
       <div className="flex gap-4 mt-10"> 
         {/* Card -1 */}

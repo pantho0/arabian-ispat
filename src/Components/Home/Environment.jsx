@@ -10,9 +10,9 @@ const Environment = () => {
             <h2 className="text-4xl text-blue-600 text-center">Sustainability and <br /> Environmental Impact</h2>
             <div>
       <Container>
-        <div className="flex gap-2">
+        <div className="grid md:grid-cols-4 gap-2">
         {/* Card-1 */}
-        <div className="card w-96">
+        <div className="card">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-green-600 rounded-full p-4 transition-transform transform hover:scale-105">
            <MdEnergySavingsLeaf/>
@@ -24,7 +24,7 @@ const Environment = () => {
           </div>
         </div>
         {/* Card-2 */}
-        <div className="card w-96">
+        <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-orange-600 rounded-full p-4 transition-transform transform hover:scale-105">
            <FaBalanceScaleLeft/>
@@ -36,7 +36,7 @@ const Environment = () => {
           </div>
         </div>
         {/* Card-3 */}
-        <div className="card w-96">
+        <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-blue-600 rounded-full p-4 transition-transform transform hover:scale-105">
            <FaRecycle/>
@@ -48,7 +48,7 @@ const Environment = () => {
           </div>
         </div>
         {/* Card-4 */}
-        <div className="card w-96">
+        <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-yellow-500 rounded-full p-4 transition-transform transform hover:scale-105">
            <TbSunElectricity/>

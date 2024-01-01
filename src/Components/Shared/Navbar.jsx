@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 import Container from "../Utils/Container";
 import Logo from "../../assets/images/logo.png"
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
@@ -66,7 +66,7 @@ const Navbar = () => {
     <div className="shadow-lg">
       <Container>
         <div className="navbar">
-          <div className="navbar-start">
+          <div className="navbar-start flex-1">
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -95,16 +95,20 @@ const Navbar = () => {
                 {navLinks}
               </ul>
             </div>
+            <div className="hidden lg:block">
             <Link to={'/'}>
             <img src={Logo} className="w-[70px]" alt="" />
             </Link>
+            </div>
           </div>
-          <div className="navbar-end hidden lg:flex">
+          <div className="navbar-center lg:hidden">
+          <Link to={'/'}>
+            <img src={Logo} className="w-[70px]" alt="" />
+            </Link>
+          </div>
+          <div className="hidden lg:flex navbar-end ">
             <ul className="menu menu-horizontal px-1">{navLinks}</ul>
           </div>
-          {/* <div className="navbar-end">
-            <a className="btn">Button</a>
-          </div> */}
         </div>
       </Container>
     </div>

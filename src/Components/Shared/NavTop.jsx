@@ -5,7 +5,7 @@ import { BsEnvelopeAtFill } from "react-icons/bs";
 
 const NavTop = () => {
   return (
-    <div className="bg-gradient-to-r from-sky-500 to-indigo-500 text-white">
+    <div className="hidden md:bg-gradient-to-r from-sky-500 to-indigo-500 text-white">
       <Container>
         <div className="flex justify-between">
         <div className="flex gap-2 items-center text-[11px]">

@@ -7,7 +7,7 @@ const Products = () => {
       <Container>
       <h2 className="text-4xl text-center text-blue-600">Products</h2>
       {/* cards */}
-      <div className="flex gap-4 mt-10"> 
+      <div className="grid md:grid-cols-3 gap-4 mt-10"> 
         {/* Card -1 */}
         <div className="card card-compact  bg-base-100 shadow-xl  ">
           <figure>

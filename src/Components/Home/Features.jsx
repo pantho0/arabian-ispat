@@ -10,9 +10,9 @@ const Features = () => {
   return (
     <div className="bg-gray-200 shadow-md">
       <Container>
-        <div className="flex gap-2">
+        <div className="grid md:grid-cols-4 gap-2">
         {/* Card-1 */}
-        <div className="card w-96">
+        <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <GiSmallFire/>
@@ -24,7 +24,7 @@ const Features = () => {
           </div>
         </div>
         {/* Card-2 */}
-        <div className="card w-96">
+        <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <GiPizzaCutter/>
@@ -36,7 +36,7 @@ const Features = () => {
           </div>
         </div>
         {/* Card-3 */}
-        <div className="card w-96">
+        <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <TbManualGearbox/>
@@ -48,7 +48,7 @@ const Features = () => {
           </div>
         </div>
         {/* Card-4 */}
-        <div className="card w-96">
+        <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">
            <div className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-full p-4">
            <GiArmorUpgrade/>

@@ -7,7 +7,7 @@ const Contact = () => {
         Get in Touch with Us
       </h2>
       <Container>
-        <div className="flex gap-4 w-1/2 mx-auto mt-8">
+        <div className="grid w-3/4 mx-auto md:grid-cols-2 gap-4 md:w-1/2 md:mx-auto mt-8">
           <input
             type="text"
             placeholder="Your Name"
@@ -19,13 +19,13 @@ const Contact = () => {
             className="input input-bordered input-info border-blue-600  w-full max-w-xs rounded-none"
           />
         </div>
-        <div className="w-1/2 mx-auto mt-8 ">
+        <div className="w-3/4 mx-auto md:w-1/2 md:mx-auto mt-8 ">
           <textarea
             className="textarea textarea-info w-full rounded-none"
             placeholder="Your Message"
           ></textarea>
         </div>
-        <div className="w-1/2 mx-auto text-center mt-8">
+        <div className="w-3/4 md:w-1/2 mx-auto text-center mt-8">
           <button className="btn btn-outline text-blue-600 hover:bg-blue-600 hover:text-white border-blue-600 w-1/2 rounded-none">
             Send Message
           </button>

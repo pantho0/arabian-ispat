@@ -63,7 +63,7 @@ const Navbar = () => {
   );
   
   return (
-    <div className="shadow-lg">
+    <div className="border-b-[3px] border-blue-600">
       <Container>
         <div className="navbar">
           <div className="navbar-start flex-1">

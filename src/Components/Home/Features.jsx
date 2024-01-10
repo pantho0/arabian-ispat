@@ -10,7 +10,7 @@ const Features = () => {
   return (
     <div className="bg-gray-200 shadow-md">
       <Container>
-        <div className="grid md:grid-cols-4 gap-2">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
         {/* Card-1 */}
         <div className="card ">
           <figure className="px-10 pt-10 text-6xl text-white">

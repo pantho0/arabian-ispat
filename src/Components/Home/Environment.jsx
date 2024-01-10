@@ -10,7 +10,7 @@ const Environment = () => {
             <h2 className="text-4xl text-blue-600 text-center">Sustainability and <br /> Environmental Impact</h2>
             <div>
       <Container>
-        <div className="grid md:grid-cols-4 gap-2">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
         {/* Card-1 */}
         <div className="card">
           <figure className="px-10 pt-10 text-6xl text-white">
